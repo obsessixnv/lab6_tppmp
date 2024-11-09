@@ -143,6 +143,7 @@ let point2 = Point(radius: 5, angle: Double.pi / 4)
 
 print(point1.description(inCoordinateSystem: "cartesian"))
 print(point2.description(inCoordinateSystem: "polar"))
+print("Cartesian for point2: (x: \(point2.x), y: \(point2.y))")
 
 let distance = Point.distanceBetween(point1, point2)
 print("Distance between point1 and point2: \(distance)")
